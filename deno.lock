@@ -1,0 +1,34 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@std/assert@1": "jsr:@std/assert@1.0.3",
+      "jsr:@std/internal@^1.0.2": "jsr:@std/internal@1.0.2",
+      "npm:hono@^4.5.10": "npm:hono@4.5.10"
+    },
+    "jsr": {
+      "@std/assert@1.0.3": {
+        "integrity": "b0d03ce1ced880df67132eea140623010d415848df66f6aa5df76507ca7c26d8",
+        "dependencies": [
+          "jsr:@std/internal@^1.0.2"
+        ]
+      },
+      "@std/internal@1.0.2": {
+        "integrity": "f4cabe2021352e8bfc24e6569700df87bf070914fc38d4b23eddd20108ac4495"
+      }
+    },
+    "npm": {
+      "hono@4.5.10": {
+        "integrity": "sha512-az6tdU1U8o/l0v8O37FIQuc+ER/TeD9vHt/qs8JnBDgMxw6Zu5L2AixUyHeXZNcu87r7iYo8Ey85R7IogOINKA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:hono@^4.5.10"
+    ]
+  }
+}
